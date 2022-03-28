@@ -11,7 +11,6 @@
   inputs.src-nimAES-master.ref   = "refs/heads/master";
   inputs.src-nimAES-master.owner = "jangko";
   inputs.src-nimAES-master.repo  = "nimAES";
-  inputs.src-nimAES-master.dir   = "";
   inputs.src-nimAES-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
