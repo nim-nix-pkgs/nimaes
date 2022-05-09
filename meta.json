@@ -7,40 +7,8 @@
   "license": "MIT",
   "web": "https://github.com/jangko/nimAES",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/jangko/nimAES/': Failed to connect to github.com port 443 after 139347 ms: Connection timed out",
     ""
   ],
-  "heads": [
-    {
-      "name": "nimAES",
-      "version": "0.1.2",
-      "author": "Andri Lim",
-      "desc": "AES encryption algorithm",
-      "license": "MIT",
-      "skipDirs": [
-        "tests",
-        "docs"
-      ],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.0.6",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.0.6"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
